@@ -1,0 +1,20 @@
+.collection-preview {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    .title {
+        font-size: 28px;
+        margin-bottom: 25px;
+        
+        &:hover {
+            cursor: pointer;
+            color: rgb(71, 71, 71);
+        }
+    }
+
+    .preview {
+        display: flex;
+        justify-content: space-between;
+    }
+}
